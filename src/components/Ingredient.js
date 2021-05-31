@@ -19,9 +19,9 @@ const Ingredient = props => {
 			);
 		}
 	}
-	const renderingrident = items.map(ingrient => {
+	const renderingrident = items.map((ingrient, index) => {
 		return (
-			<div className='item'>
+			<div className='item' key={props.mealsIngrdient.idMeal + index}>
 				<div className='list'>{ingrient}</div>
 			</div>
 		);

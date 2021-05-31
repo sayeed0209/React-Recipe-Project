@@ -1,3 +1,4 @@
+import "./MealItem.css";
 const MealItem = props => {
 	return (
 		<div
@@ -13,7 +14,9 @@ const MealItem = props => {
 					/>
 				</div>
 				<div className='content'>
-					<h4 className='header image-title'>{props.meal.strMeal} </h4>
+					<h4 className='header image-title meal-item__title'>
+						{props.meal.strMeal}{" "}
+					</h4>
 				</div>
 			</div>
 		</div>
