@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 
 class SearchBar extends React.Component {
-	state = { term: '' };
+	state = { term: "chicken" };
 	onInputChange = event => {
-		// console.log(event.target.value);
 		this.setState({ term: event.target.value });
 	};
 
@@ -14,15 +13,15 @@ class SearchBar extends React.Component {
 
 	render() {
 		return (
-			<div className="ui segment">
-				<form className="ui form" onSubmit={this.onSubmitForm}>
-					<div className="field">
-						<label htmlFor="search">Search Meal</label>
+			<div className='ui segment'>
+				<form className='ui form' onSubmit={this.onSubmitForm}>
+					<div className='field'>
+						<label htmlFor='search'>Search Meal</label>
 						<input
-							type="text"
-							name="Seach"
-							placeholder="Search your favorite Meal"
-							id="search"
+							type='text'
+							name='Seach'
+							placeholder='Search your favorite Meal'
+							id='search'
 							onChange={this.onInputChange}
 							value={this.state.term}
 						/>

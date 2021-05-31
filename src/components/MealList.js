@@ -1,7 +1,6 @@
-// `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchTerm}`)
-import React from 'react';
-import MealItem from './MealItem';
-import './MealList.css';
+import React from "react";
+import MealItem from "./MealItem";
+import "./MealList.css";
 const MealList = props => {
 	const renderedMeals = props.foundMeals.map(foundMeal => {
 		return (
@@ -13,7 +12,7 @@ const MealList = props => {
 		);
 	});
 
-	return <div className="ui grid">{renderedMeals}</div>;
+	return <div className='ui grid'>{renderedMeals}</div>;
 };
 
 export default MealList;
