@@ -18,5 +18,10 @@ After you type your favorite meal and press Enter there will appear lots of diff
 By default the first meal will apear with cooking instructions.If you want see other meal cooking instructions you can just click and it will show you the the ingredients and instructions of particular recipe :)# meal-finder-with-react
 
 [Heroku ](https://meal-finder-with-react.herokuapp.com/)
+<<<<<<< HEAD
 ![Meal-finder](img/meal-finder.PNG)
 ![Meal-finder](img\meal-finder2.PNG)
+=======
+![Meal-finder]("./public/img/meal-finder.PNG")
+![Meal-finder]("./public/img/meal-finder2.PNG")
+>>>>>>> 4b42a2de6868ca4972cb077bebc84f3d143c5e8e
