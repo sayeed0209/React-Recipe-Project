@@ -19,4 +19,4 @@ By default the first meal will apear with cooking instructions.If you want see o
 
 [Heroku ](https://meal-finder-with-react.herokuapp.com/)
 
-![Meal-finder](img/meal-finder.png)
+![Meal-finder](https://raw.githubusercontent.com/sayeed0209/meal-finder-with-react/main/img/meal-finder.PNG)
