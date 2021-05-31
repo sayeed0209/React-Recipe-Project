@@ -27,10 +27,6 @@ const Ingredient = props => {
 		);
 	});
 
-	return (
-		<div className='ui relaxed divided list' key={props.mealsIngrdient.idMeal}>
-			{renderingrident}
-		</div>
-	);
+	return <div className='ui relaxed divided list'>{renderingrident}</div>;
 };
 export default Ingredient;

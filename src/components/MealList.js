@@ -8,6 +8,7 @@ const MealList = props => {
 				meal={foundMeal}
 				key={foundMeal.idMeal}
 				onImageClick={props.onImageClickFromApp}
+				id={foundMeal.idMeal}
 			/>
 		);
 	});

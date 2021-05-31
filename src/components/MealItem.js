@@ -1,5 +1,3 @@
-import react from "react";
-
 const MealItem = props => {
 	return (
 		<div
@@ -11,7 +9,7 @@ const MealItem = props => {
 					<img
 						src={props.meal.strMealThumb}
 						alt={props.meal.strMeal}
-						key={props.meal.mealId}
+						key={props.meal.idMeal}
 					/>
 				</div>
 				<div className='content'>

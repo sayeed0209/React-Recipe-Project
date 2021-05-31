@@ -6,11 +6,11 @@ const MealDeatils = props => {
 	}
 
 	return (
-		<div className='ui grid'>
+		<div className='ui grid' key={props.meal.idMeal}>
 			<div className='eight  wide column'>
 				<div className='ui items ui segment'>
 					<div className='item'>
-						<div className='medium ui image' key={props.meal.idMeal}>
+						<div className='medium ui image'>
 							<img src={props.meal.strMealThumb} alt={props.meal.strMeal} />
 						</div>
 						<div className='content '>
