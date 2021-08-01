@@ -14,8 +14,10 @@ You will also see any lint errors in the console.
 
 ### `Find your favorite meal by typing the name`
 
- By default you will see all the Meal with the name of #chicken#!!, You can type any type of meal you would like to find(Ex: Meat,fish,vegetarian etc.) there will appear lots of diffrent types of food from diffrent origin . By default the first meal will apear with cooking instructions.If you want see other meal cooking instructions you can just click and it will show you the the ingredients and instructions of particular recipe :)# meal-finder-with-react
+ By default you will see all the Meal with the name of #chicken#!!, You can type any type of meal you would like to find(Ex: Meat,fish,vegetarian etc.) there will appear lots of diffrent types of food from diffrent origin . By default the first meal will apear with cooking instructions.If you want see other meal cooking instructions you can just click and it will show you the the ingredients and instructions of particular recipe :)# meal-finder-with-react.
 
-[Heroku ](https://meal-finder-with-react.herokuapp.com/)- ### Click here to find out 
+ ### deployed by heroku.
+ ### Click here to find out [Heroku ](https://meal-finder-with-react.herokuapp.com/)
+
 
 ![Meal-finder](https://raw.githubusercontent.com/sayeed0209/meal-finder-with-react/main/img/meal-finder.PNG)
